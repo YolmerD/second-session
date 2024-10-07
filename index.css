@@ -30,3 +30,55 @@ body {
 .hide {
     visibility: hidden;
 }
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.gray {
+    background-color: gray;
+    opacity: 70%;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.height-full {
+    height: 100%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bottom, Right, Left, Top can only be used if your position is absolute, fixed, relative, sticky */
+.slightly-bottom-right {
+    bottom: 200px;
+    right: 300px;
+}
+
+
+.slightly-bottom-left {
+    bottom: 200px;
+    left: 300px;
+}
+
+.top {
+    top:  0px;
+    left: 50%;
+}
