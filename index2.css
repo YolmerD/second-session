@@ -1,0 +1,73 @@
+/* border-radius: 50px */
+
+body {
+    background-color: gainsboro;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 200px;
+    width: 150px;
+    height: 150px;
+}
+
+.orange {
+    background: rgb(252,252,252);
+    background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(217,95,43,1) 35%, rgba(245,176,129,1) 100%);  
+}
+
+.yellow {
+    background: rgb(236,172,112);
+    background: linear-gradient(90deg, rgba(236,172,112,1) 0%, rgba(217,95,43,1) 35%, rgba(249,206,46,1) 100%); 
+}
+
+.red {
+    background-color: red;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.maroon {
+    background-color: maroon;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.lightsalmon {
+    background-color: lightsalmon;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

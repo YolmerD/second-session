@@ -1,0 +1,32 @@
+body {
+    background-color: red;
+}
+
+.images {
+    height: 200px;
+    width: 200px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.none {
+    display: none;
+}
+
+
+.hide {
+    visibility: hidden;
+}
